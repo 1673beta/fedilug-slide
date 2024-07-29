@@ -105,3 +105,4 @@ curl https://alx.sh | sh
 # おわり
 
 楽しい！！！！！
+あとTimemachineでバックアップは取ろう！！！！！
