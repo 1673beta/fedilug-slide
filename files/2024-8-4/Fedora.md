@@ -71,7 +71,7 @@ Apple Sillicon MacにLinuxを移植するプロジェクト&コミュニティ
 * 最悪macOSを吹き飛ばす度胸
 
 ### インストール
-macOSでターミナル開いてコマンドを叩くだけ！
+macOSでターミナル開いてコマンドを叩くだけ
 
 ```bash
 curl https://alx.sh | sh
@@ -80,29 +80,29 @@ curl https://alx.sh | sh
 ---
 
 # Asahi Linuxの問題点
- 1. USB-Cポートが使えない
+ 1. Macbook AirだとUSB-Cポートが使えない
     * 外部ディスプレイも使えない
  2. 公式だとFedoraしかない
     * 非公式だとUbuntu Asahiがある
  3. M3対応してない
+ 4. 飽きた時に消すのがめんどくさい
 
 ---
 
 # Misskeyを動かす
 手癖で動かせるのでとりあえずMisskey
   
-* 普通のaarch64で動くFedoraなのでDocker Composeでぽん！
+* 普通のFedoraと同様にDocker Composeで建てられる
 
 ---
 
 # 実際にサーバー運用する場合
 
 * インストール時にKDE Plasma、GNOME、Fedora Serverから選べる
-* Mac miniかMac studioなら良さそう
+* Mac miniかMac studioならEthernetとHDMIが使える
 
 ---
 
 # おわり
 
-楽しい！！！！！
-あとTimemachineでバックアップは取ろう！！！！！
+Timemachineでバックアップは取ろう
