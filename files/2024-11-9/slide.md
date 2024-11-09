@@ -15,15 +15,12 @@ Esurio(@esurio1673@c.koliosky.com)
 
 # 自己紹介
 
-```json
-{
-    "name": "Esurio",
-    "account": "@esurio1673@c.koliosky.com",
-    "jobs": "student",
-    "distribution": "Ubuntu, Debian, Fedora",
-    "language": "Typescript, Rust"
-}
-```
+名前: Esurio
+SNS: @esurio1673@c.koliosky.com
+職業: 学生(休学中)、アルバイト
+ディストリ: Ubuntu, Debian, Fedora
+言語: Typescript, Rust
+
 
 ---
 
@@ -44,6 +41,9 @@ Esurio(@esurio1673@c.koliosky.com)
 > ![bg fit right:50% ](./assets/narita.jpeg)
 
 ![w:128 h:128](./assets/qr_narita.png)
+↓の開発者
+![w:120](./assets/fedify.svg) Fedify
+![w:120](./assets/hollo-logo.svg) Hollo
 
 ---
 
@@ -53,4 +53,5 @@ Esurio(@esurio1673@c.koliosky.com)
 ---
 
 # 教訓
-**SNS上の発言には気をつけましょう**
+- **SNS上の発言には気をつけましょう**
+- 縁は大事にしましょう
