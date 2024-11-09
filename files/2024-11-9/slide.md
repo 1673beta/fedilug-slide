@@ -20,7 +20,7 @@ SNS: @esurio1673@c.koliosky.com
 職業: 学生(休学中)、アルバイト
 ディストリ: Ubuntu, Debian, Fedora
 言語: Typescript, Rust
-
+普段: FediLUGに出没している
 
 ---
 
