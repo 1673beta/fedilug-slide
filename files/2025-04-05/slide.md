@@ -18,7 +18,7 @@ Esurio(@esurio1673@c.koliosky.com)
 SNS: @esurio1673@c.koliosky.com
 ディストリ: Fedora
 言語: TypeScript, Rust
-普段: CherryPick(Misskeyのフォーク)をフォークしてる, notectl
+普段: CherryPick(Misskeyのフォーク)をフォークしてる, notectlの開発
 ソフトウェア: CherryPick, GoToSocial, Mitra, Hollo
 最近: 料理が楽しいのでみなさんのおすすめのレシピをメンションでください
 
@@ -126,13 +126,69 @@ SNS: @esurio1673@c.koliosky.com
 
 ## レシピを探そう
 クックパッド、きょうの料理、クラシル、DELISH KITCHENなどなど  
-インターネットには料理の知見もいっぱいある
+インターネットには料理の知見もいっぱいある  
+レシピは料理のプログラミング言語
 
 ---
 
-## おしまい
+## おわりに
 - 自分の体調と向き合って、自分の体にあったものを
 - 「食べることは生きること」by 大学生協
 - 体にガタが来ると働けなくなる
 - 無理に毎食作る必要はないので、1日1食でも1週間に1回でも挑戦しよう
 - 意外と息抜きになるよ
+
+---
+
+<!-- _class: lead-->
+# Headscaleを構築して実運用する
+Esurio(@esurio1673@c.koliosky.com)
+
+---
+
+# 自己紹介
+
+名前: Esurio
+SNS: @esurio1673@c.koliosky.com
+ディストリ: Fedora
+言語: TypeScript, Rust
+普段: CherryPick(Misskeyのフォーク)をフォークしてる, notectlの開発
+ソフトウェア: CherryPick, GoToSocial, Mitra, Hollo
+最近: 料理が楽しいのでみなさんのおすすめのレシピをメンションでください
+
+---
+
+## Headscaleとは
+
+OSS版実装のTailscaleのサーバー部分  
+WireguardベースのVPNで、簡単にVPNやゼロトラストネットワークを構築できる
+
+---
+
+## 抱えていた問題
+- 口に出せないくらいまずいことが横行している
+- `/wp-admin.php`にだれでもアクセスできてしまう
+
+---
+
+## 実際の構成
+- Docker composeで建てる
+- WebUIにはHeadplaneを使用
+  - HeadplaneはTailscaleのWebUIほぼそのまま
+
+---
+
+## 導入してよかったこと
+- 口に出せないくらいまずいことをなくせる予定
+- `/wp-admin.php`や`/wp-login.php`へのアクセスが制限できる
+- Tailscaleのクライアント部分はOSSであるため、Fully-OSSで簡単にゼロトラストを導入できた
+
+---
+
+## 導入してここがイマイチだったこと
+- Windows + ESETと非常に相性が悪く、Tailscaleのメリットである簡単に使えるという点が潰れている
+
+---
+
+## おわりに
+- 気軽にゼロトラストを始めてみよう
